@@ -4,7 +4,7 @@
 
 > ### This is a website for tourism and traveling around the world, exploring the world, and offering exciting tours for adventurers.
 
-<img src="" width="30%" /><img src="" width="70%" />
+<img src="images/mobile-preview.PNG" width="30%" /><img src="images/desktop-preview.PNG" width="70%" />
 
 ## Built With
 
