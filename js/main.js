@@ -28,3 +28,96 @@ function mobileMenu() {
 }
 
 mobileMenu();
+
+// Speakers Section
+
+const speakersData = [
+  {
+    img: "images/speakers/speaker1.png",
+    name: "Youchai Benkler",
+    bio: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+    paragraph:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Debitis idinventore natus facere, laudantium dolorum.",
+  },
+  {
+    img: "images/speakers/speaker2.png",
+    name: "John Marcelo",
+    bio: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+    paragraph:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Debitis idinventore natus facere, laudantium dolorum.",
+  },
+  {
+    img: "images/speakers/speaker3.png",
+    name: "SohYeong Noh",
+    bio: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+    paragraph:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Debitis idinventore natus facere, laudantium dolorum.",
+  },
+  {
+    img: "images/speakers/speaker4.png",
+    name: "Kyrillos Hany",
+    bio: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+    paragraph:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Debitis idinventore natus facere, laudantium dolorum.",
+  },
+  {
+    img: "images/speakers/speaker5.png",
+    name: "Lila Tretikov",
+    bio: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+    paragraph:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Debitis idinventore natus facere, laudantium dolorum.",
+  },
+  {
+    img: "images/speakers/speaker6.png",
+    name: "Andres Ryan",
+    bio: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.",
+    paragraph:
+      "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Debitis idinventore natus facere, laudantium dolorum.",
+  },
+];
+
+function createSpeaker(i) {
+  const container = document.querySelector(".speakers-container");
+
+  const speakerHtml = `
+    <li class="speaker">
+      <img src="images/speakers/speaker${i + 1}.png" alt="speaker${
+    i + 1
+  }" class="speaker__img">
+      <div class="speaker__details">
+        <h3>${speakersData[i].name}</h3>
+        <h5>${speakersData[i].bio}</h5>
+        <p>${speakersData[i].paragraph}</p>
+      </div>
+    </li>`;
+
+  container.insertAdjacentHTML("beforeend", speakerHtml);
+}
+
+let ind = 0;
+const showBtn = document.querySelector(".show-btn");
+
+function generateAllSpeakers() {
+  for (let i = speakersData.length - 1; i >= 0; i -= 1) {
+    createSpeaker(ind);
+    ind++;
+  }
+}
+
+function generateTwoSpeakers() {
+  for (let i = speakersData.length - 1; i >= 4; i -= 1) {
+    createSpeaker(ind);
+    ind++;
+    if (ind === 6) {
+      showBtn.style.display = "none";
+      return;
+    }
+  }
+}
+
+if (screen.width < 992) {
+  generateTwoSpeakers();
+  showBtn.addEventListener("click", generateTwoSpeakers);
+} else {
+  generateAllSpeakers();
+}

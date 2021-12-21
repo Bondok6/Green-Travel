@@ -136,6 +136,17 @@
   font-size: 1.3rem;
 }
 
+.show-btn {
+  outline: none;
+  width: 100%;
+  color: var(--secondary-color);
+  padding: 2rem 0;
+  background-color: transparent;
+  border: 1px solid var(--bg-color);
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
 @media screen and (min-width: 992px) {
   .speakers-container {
     width: 100%;
@@ -147,6 +158,10 @@
 
   .speaker {
     width: 46%;
+  }
+
+  .show-btn {
+    display: none;
   }
 }
 

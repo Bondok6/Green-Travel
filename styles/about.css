@@ -5,16 +5,19 @@ section:not(:last-child) {
 .container--hero {
   justify-content: center;
   align-items: center;
+  width: 100vw;
 }
 
 .hero__title,
 .hero__description {
   text-align: center;
+  width: 90%;
 }
 
 .hero__description {
-  background-color: #fff;
-  border: 1px solid #d7d7d7;
+  font-size: 1.8rem;
+  background-color: rgba(255, 255, 255, 0.774);
+  border: 1px solid var(--bg-color);
 }
 
 .hero__contact {
@@ -59,10 +62,10 @@ section:not(:last-child) {
 }
 
 .creative img {
-  width: 40rem;
+  max-width: 70%;
+  border: 1px solid var(--bg-color);
+  padding: 5rem;
 }
-
-/* ---- */
 
 .last-trips {
   display: flex;
@@ -122,6 +125,20 @@ figcaption span {
 /* ---- */
 
 @media screen and (min-width: 992px) {
+  .hero__title::before {
+    all: unset;
+  }
+
+  .hero__title,
+  .hero__description {
+    width: 80%;
+  }
+
+  .hero__description {
+    font-size: 2rem;
+    line-height: 1.8;
+  }
+
   .trips-box {
     flex-direction: row;
   }
