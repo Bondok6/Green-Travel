@@ -18,7 +18,7 @@
 
 ## Live Demo
 
-[Kyrillos's Portfolio](https://bondok6.github.io/Green-Travel/)
+[Green Travel](https://bondok6.github.io/Green-Travel/)
 
 ## Getting Started
 
