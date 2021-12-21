@@ -1,0 +1,153 @@
+/* Start Program Section */
+
+.program-section {
+  background: url(../images/about-bg.PNG);
+  color: #fff;
+  padding: 3rem 0;
+}
+
+.program-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.program {
+  background-color: #3d40466c;
+  display: flex;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.program:hover {
+  transform: scale(1.1);
+}
+
+.program img {
+  width: 5rem;
+}
+
+.program h4 {
+  color: var(--secondary-color);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+}
+
+.program p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.about-btn {
+  display: block;
+  width: 30rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 3rem;
+  background-color: var(--secondary-color);
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.6s;
+}
+
+.about-btn:hover {
+  color: var(--secondary-color);
+  background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+  .program-container {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .program {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-btn {
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .about-btn:hover {
+    background-color: transparent;
+  }
+}
+
+/* End Program Section */
+
+/* Start Speakers Section */
+
+.speakers-section {
+  width: 100vw;
+  padding: 2rem 0;
+}
+
+.speakers-container {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.speaker {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.speaker__details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 1rem;
+}
+
+.speaker__details h3 {
+  font-size: 2rem;
+}
+
+.speaker__details h5 {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.speaker__details h5::after {
+  content: "";
+  display: block;
+  margin-top: 1rem;
+  height: 2px;
+  width: 4rem;
+  background-color: var(--bg-color);
+}
+
+.speaker__details p {
+  font-size: 1.3rem;
+}
+
+@media screen and (min-width: 992px) {
+  .speakers-container {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+  }
+
+  .speaker {
+    width: 46%;
+  }
+}
+
+/* End Speakers Section */
