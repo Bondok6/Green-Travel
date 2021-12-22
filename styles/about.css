@@ -132,6 +132,60 @@ figcaption span {
   font-size: 4rem;
 }
 
+/* *************************  Start Partner Section **************************** */
+.partner-section,
+footer {
+  display: block;
+}
+
+.partner-section {
+  background-color: #414246;
+  color: var(--bg-color);
+  padding: 2rem 0;
+}
+
+.partners-container {
+  margin-top: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.partner img {
+  width: 15rem;
+}
+
+/* *************************  End Partner Section **************************** */
+
+/* *************************  Start Footer Section *************************** */
+
+.footer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer img {
+  width: 20rem;
+}
+
+.footer h6 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.footer p {
+  font-size: 1.3rem;
+}
+
+.dark-logo {
+  display: none;
+}
+
+/* ************************  End Footer Section *************************** */
+
 /* ********************** End trips-section Section ************************  */
 
 /* Desktop Screen */
@@ -155,7 +209,25 @@ figcaption span {
     flex-direction: row;
   }
 
-  footer {
+  .partner-section {
     display: none;
+  }
+
+  .dark-logo {
+    display: block;
+  }
+
+  .white-logo {
+    display: none;
+  }
+
+  footer {
+    width: 100vw;
+    background-color: #414246;
+  }
+
+  .footer {
+    gap: 5rem;
+    color: #fff;
   }
 }
