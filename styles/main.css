@@ -91,11 +91,10 @@ li {
 .sub-title::after {
   content: "";
   display: block;
-  margin: 0 auto;
+  margin: 1rem auto;
   height: 2px;
   width: 5rem;
   background-color: var(--secondary-color);
-  margin-top: 1rem;
 }
 
 /* *************************** End Common Classes ****************************** */
@@ -302,6 +301,103 @@ li {
 }
 
 /* **************************  Start Hero Section ****************************** */
+
+/* ************************** Start Speakers Section ************************ */
+
+.speakers-section {
+  width: 100vw;
+  padding: 2rem 0;
+}
+
+.speakers-container {
+  margin: 6rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.speaker {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: relative;
+}
+
+.speaker::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  background: no-repeat url(../images/chess-bg.png);
+  background-size: 54%;
+  width: 25%;
+  height: 100%;
+}
+
+.speaker__img {
+  z-index: 1;
+}
+
+.speaker__details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 1rem;
+}
+
+.speaker__details h3 {
+  font-size: 2rem;
+}
+
+.speaker__details h5 {
+  font-size: 1.5rem;
+  color: var(--secondary-color);
+}
+
+.speaker__details h5::after {
+  content: "";
+  display: block;
+  margin-top: 1rem;
+  height: 2px;
+  width: 4rem;
+  background-color: var(--bg-color);
+}
+
+.speaker__details p {
+  font-size: 1.3rem;
+}
+
+.show-btn {
+  outline: none;
+  width: 100%;
+  color: var(--secondary-color);
+  padding: 2rem 0;
+  background-color: transparent;
+  border: 1px solid var(--bg-color);
+  font-size: 2rem;
+  letter-spacing: 2px;
+}
+
+@media screen and (min-width: 992px) {
+  .speakers-container {
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+    flex-wrap: wrap;
+  }
+
+  .speaker {
+    width: 46%;
+  }
+
+  .show-btn {
+    display: none;
+  }
+}
+
+/* ************************** End Speakers Section ************************ */
 
 /* *************************  Start Partner Section **************************** */
 
