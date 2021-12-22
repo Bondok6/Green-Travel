@@ -31,46 +31,40 @@ mobileMenu();
 
 const speakersData = [
   {
-    img: 'images/speakers/speaker1.png',
     name: 'Youchai Benkler',
-    bio: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+    bio: 'Someone who enjoyed a trip to Egypt',
     paragraph:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit.Debitis idinventore natus facere, laudantium dolorum.',
+      'I spend one week in Egypt, and I had the best week ever with my family. It was an amazing trip',
   },
   {
-    img: 'images/speakers/speaker2.png',
     name: 'John Marcelo',
-    bio: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+    bio: 'Someone who enjoyed a trip to the Forest Hiker.',
     paragraph:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit.Debitis idinventore natus facere, laudantium dolorum.',
+      'WOW! my life is completely different now, I spend the best 3 days ever. It was an amazing trip',
   },
   {
-    img: 'images/speakers/speaker3.png',
     name: 'SohYeong Noh',
-    bio: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+    bio: 'Someone who enjoyed a trip to the Snow Adventure',
     paragraph:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit.Debitis idinventore natus facere, laudantium dolorum.',
+      'WOW! It was the best trip I spend, I spend the best 5 days of my life. It was an amazing trip',
   },
   {
-    img: 'images/speakers/speaker4.png',
     name: 'Kyrillos Hany',
-    bio: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+    bio: 'Someone who enjoyed a trip to Paris',
     paragraph:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit.Debitis idinventore natus facere, laudantium dolorum.',
+      'WOW! my life is completely different now, I spend the best 10 days ever. It was an amazing trip',
   },
   {
-    img: 'images/speakers/speaker5.png',
     name: 'Lila Tretikov',
-    bio: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+    bio: 'Someone who enjoyed a trip to Landon',
     paragraph:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit.Debitis idinventore natus facere, laudantium dolorum.',
+      'I had the best 15 days ever in London, I got new experiences, and new knowledge. It was an amazing trip',
   },
   {
-    img: 'images/speakers/speaker6.png',
     name: 'Andres Ryan',
-    bio: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit.',
+    bio: 'Someone who enjoyed a trip to Australia',
     paragraph:
-      'Lorem ipsum, dolor sit amet consectetur adipisicing elit.Debitis idinventore natus facere, laudantium dolorum.',
+      'I had the best month ever in Australia. Wow! my life is completely different now. It was an amazing trip',
   },
 ];
 
