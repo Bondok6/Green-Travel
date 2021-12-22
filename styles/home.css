@@ -1,0 +1,145 @@
+/* *************************** Start Program Section ************************** */
+
+.program-section {
+  background: url(../images/about-bg.PNG);
+  color: #fff;
+  padding: 3rem 0;
+}
+
+.program-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.program {
+  background-color: #3d40466c;
+  display: flex;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.6s;
+}
+
+.program:hover {
+  transform: scale(1.1);
+}
+
+.program img {
+  width: 5rem;
+}
+
+.program h4 {
+  color: var(--secondary-color);
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.program p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.about-btn {
+  display: block;
+  width: 30rem;
+  margin: 0 auto;
+  text-align: center;
+  padding: 2rem 3rem;
+  background-color: var(--secondary-color);
+  color: #fff;
+  font-size: 2rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.6s;
+}
+
+.about-btn:hover {
+  color: var(--secondary-color);
+  background-color: #fff;
+}
+
+@media screen and (min-width: 992px) {
+  .program-container {
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .program {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .about-btn {
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .about-btn:hover {
+    background-color: transparent;
+  }
+}
+
+/* *************************** End Program Section ************************** */
+.partner-section,
+footer {
+  display: none;
+}
+
+@media screen and (min-width: 992px) {
+  /* *************************  Start Partner Section **************************** */
+  .partner-section,
+  footer {
+    display: block;
+  }
+
+  .partner-section {
+    background-color: #414246;
+    color: var(--bg-color);
+    padding: 2rem 0;
+  }
+
+  .partners-container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .partner img {
+    width: 15rem;
+  }
+
+  /* *************************  End Partner Section **************************** */
+
+  /* *************************  Start Footer Section *************************** */
+
+  .footer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer img {
+    width: 20rem;
+  }
+
+  .footer h6 {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+
+  .footer p {
+    font-size: 1.3rem;
+  }
+
+  /* ************************  End Footer Section *************************** */
+}
