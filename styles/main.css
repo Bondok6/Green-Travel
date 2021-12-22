@@ -9,7 +9,7 @@
   --whit-color: #fff;
 }
 
-/* Simple Normalize */
+/* Simple Normalization */
 
 *,
 ::after,
@@ -39,7 +39,7 @@ li {
   list-style: none;
 }
 
-/* Bootstrap Container */
+/* ************************ Start Bootstrap Container ******************************* */
 
 .container {
   width: 100%;
@@ -79,7 +79,9 @@ li {
   }
 }
 
-/* Common Classes */
+/* ************************ End Bootstrap Container ******************************* */
+
+/* *************************** Start Common Classes ****************************** */
 
 .sub-title {
   font-size: 3rem;
@@ -96,7 +98,9 @@ li {
   margin-top: 1rem;
 }
 
-/* Start Header */
+/* *************************** End Common Classes ****************************** */
+
+/* *************************** Start Header Section **************************** */
 
 .nav-top {
   display: none;
@@ -117,7 +121,8 @@ li {
 }
 
 .nav-bottom img {
-  width: 50px;
+  width: 10rem;
+  height: 40px;
   margin-left: 2rem;
 }
 
@@ -180,6 +185,10 @@ li {
     display: flex;
   }
 
+  .nav-top a {
+    color: var(--bg-color);
+  }
+
   .nav-bottom {
     display: flex;
   }
@@ -196,10 +205,10 @@ li {
 
   .nav-list {
     all: unset;
-    width: 85%;
+    width: 80%;
     display: flex;
     justify-content: flex-end;
-    gap: 3rem;
+    gap: 4rem;
   }
 
   .nav-item a {
@@ -213,9 +222,9 @@ li {
   }
 }
 
-/* End Header */
+/* *************************** Start Header Section **************************** */
 
-/* Start Hero Section */
+/* **************************  Start Hero Section ****************************** */
 
 /* prettier-ignore */
 
@@ -292,9 +301,9 @@ li {
   }
 }
 
-/* End Hero Section */
+/* **************************  Start Hero Section ****************************** */
 
-/* Start Partner Section */
+/* *************************  Start Partner Section **************************** */
 
 .partner-section {
   background-color: #414246;
@@ -314,9 +323,9 @@ li {
   width: 15rem;
 }
 
-/* End Partner Section */
+/* *************************  End Partner Section **************************** */
 
-/* Start Footer Section */
+/* *************************  Start Footer Section *************************** */
 
 .footer {
   width: 100vw;
@@ -338,4 +347,4 @@ li {
   font-size: 1.3rem;
 }
 
-/* End Footer Section */
+/* ************************  End Footer Section *************************** */

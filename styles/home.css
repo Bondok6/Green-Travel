@@ -1,4 +1,4 @@
-/* Start Program Section */
+/* *************************** Start Program Section ************************** */
 
 .program-section {
   background: url(../images/about-bg.PNG);
@@ -38,6 +38,7 @@
   color: var(--secondary-color);
   font-size: 1.6rem;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .program p {
@@ -85,9 +86,9 @@
   }
 }
 
-/* End Program Section */
+/* *************************** End Program Section ************************** */
 
-/* Start Speakers Section */
+/* ************************** Start Speakers Section ************************ */
 
 .speakers-section {
   width: 100vw;
@@ -165,4 +166,4 @@
   }
 }
 
-/* End Speakers Section */
+/* ************************** End Speakers Section ************************ */
