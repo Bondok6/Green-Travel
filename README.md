@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Green-Travel
+# Green-Travel (capstone project)
 
 > ### This is a website for tourism and traveling around the world, exploring the world, and offering exciting tours for adventurers.
 
