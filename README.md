@@ -22,7 +22,7 @@
 
 ## Video of the project description
 
-[Watch from here]()
+[Watch from here](https://www.loom.com/share/1bd6e327e3644d2e8c468083f1d2a1b0)
 
 ## Getting Started
 
