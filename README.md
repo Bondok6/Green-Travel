@@ -49,8 +49,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Inspired by Cindy chen design [Behance](https://www.behance.net/adagio07)
-- The design link [Designlink](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)
+- Inspired by [Zeplin project](https://app.zeplin.io/project/5b35a9e13227086040f8eb75/screen/5b695e29bb8c844f118f9378)
+
 
 ## 📝 License
 
