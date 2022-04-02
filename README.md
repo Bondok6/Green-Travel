@@ -28,7 +28,9 @@
 
 To get a local copy up and running follow these simple example steps.
 
-`git clone git@github.com:Bondok6/Green-Travel.git`
+```bash 
+> git clone git@github.com:Bondok6/Green-Travel.git
+```
 
 ## Authors
 
